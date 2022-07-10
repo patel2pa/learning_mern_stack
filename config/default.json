@@ -1,3 +1,4 @@
 {
-"mongoURI": "test test"
+"mongoURI": "mongodb+srv://parthUser1:g8ZdKvjTB2oeFH4d@cluster0.s4nedb9.mongodb.net/?retryWrites=true&w=majority", 
+"jwtSecret": "mysecrettoken"
 }

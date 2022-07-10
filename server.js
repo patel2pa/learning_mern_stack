@@ -4,12 +4,12 @@ const connectDB = require('./config/db');
 const app = express();
 
 //connecting to the database
-
+//connectDB()
 
 app.use(express.json({extended: false})); 
 
 
-//connectDB(); 
+connectDB(); 
 
 app.get('/', (req, res) => res.send(`API Running`)); 
 
